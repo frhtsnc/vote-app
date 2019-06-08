@@ -5,8 +5,8 @@ import socket
 import random
 import json
 
-option_a = os.getenv('OPTION_A', "Docker")
-option_b = os.getenv('OPTION_B', "Linux Container")
+option_a = os.getenv('OPTION_A', "Container")
+option_b = os.getenv('OPTION_B', "Virtual Machine")
 redis_password = os.getenv('REDIS_PASSWORD', "Dogs")
 hostname = socket.gethostname()
 
